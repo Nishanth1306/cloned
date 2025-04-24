@@ -59,7 +59,7 @@ const SchemeList = () => {
 
   return (
     <div className="scheme-list-container">
-      <h2>Schemes under "{categoryName}"</h2>
+      <h2>Schemes under {categoryName}</h2>
 
       {schemes.length > 0 ? (
         <div className="schemes-grid">
@@ -67,6 +67,9 @@ const SchemeList = () => {
             <div key={scheme.id} className="scheme-card">
               <h4>{scheme.name}</h4>
               <p>{scheme.description}</p>
+              <h5>Scheme Eligibility</h5><p>{scheme.eligibility}</p>
+              <p>{scheme.benefits}</p>
+              <p>To know More Click this</p>
               <a href={scheme.link} target="_blank" rel="noopener noreferrer">
                 Learn More
               </a>
@@ -74,7 +77,7 @@ const SchemeList = () => {
           ))}
         </div>
       ) : (
-        <p>No schemes found under this category.</p>
+        <p>Please wait While we fetch the Details</p>
       )}
     </div>
   );

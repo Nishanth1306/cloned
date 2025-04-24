@@ -77,7 +77,11 @@ const CategoryPage = () => {
     { id: 1, name: "Healthcare", description: "Schemes related to healthcare" },
     { id: 2, name: "Education", description: "Schemes related to education" },
     { id: 3, name: "Housing", description: "Schemes related to housing" },
-    { id: 4, name: "Pension", description: "Schemes related to pension" }
+    { id: 4, name: "Pension", description: "Schemes related to pension" },
+    {id: 5, name:"Agriculture", description: "Schemes related to Agriculture"},
+    {id: 6, name:"SkillDevelopement", description:"Schemes related to Skill Development"},
+    {id:7,name:"Welfare", description:"Social Welfare Schemes"},
+
   ];
 
   const handleCategoryClick = (categoryName) => {
