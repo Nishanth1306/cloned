@@ -81,6 +81,12 @@ const CategoryPage = () => {
     {id: 5, name:"Agriculture", description: "Schemes related to Agriculture"},
     {id: 6, name:"SkillDevelopement", description:"Schemes related to Skill Development"},
     {id:7,name:"Welfare", description:"Social Welfare Schemes"},
+    {id:8, name:"Finance", description:"Schemes related Finance"},
+    {id:9, name: "Enterprise",description:" Enterprises Schemes are Available"},
+    {id:10, name:"DisasterManagement", description:"Disaster Manegement Schemes will be updated."},
+    {id:11, name:"Social", description:"Social Archielogist Schemes"},
+    
+
 
   ];
 
