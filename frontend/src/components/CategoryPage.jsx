@@ -87,7 +87,10 @@ const CategoryPage = () => {
     {id:11, name:"Social", description:"Social Archielogist Schemes"},
     {id:12, name:"Loan", description : "Financial Aided Schemes"},
     {id:13, name:"Property", description: "Property Schemes"},
+    {id:14, name:"MSME", description:" MSME Schemes"},
+    {id:15, name:"Equipements", description:"Schemes for the Equipements"},
     
+
 
 
 
